@@ -112,11 +112,22 @@ A **hybrid human-AI approach** may therefore be more appropriate, where LLMs per
 
 This approach can combine the scalability and speed of LLMs with the contextual understanding and judgement of financial analysts.
 
-## Repository Contents
+## Repository Structure
 
-This repository contains selected code and supporting materials demonstrating the analytical methodology and technical implementation of the project.
+### `Code/`
+Contains the Jupyter notebooks used for LLM-based sentiment classification and evaluation, including separate experiments for Uber and Blackstone using OpenAI and DeepSeek models.
 
-Certain original project materials, datasets, annotations, and documentation are not included due to confidentiality and data-sharing restrictions.
+### `Dashboard/`
+Contains the Streamlit dashboard implementation and the setup/execution guide for running the interactive evaluation dashboard.
+
+### `Data/`
+Contains the datasets used throughout the project, including Uber, Blackstone, and combined datasets used for model evaluation.
+
+### `Results/`
+Contains the final model evaluation outputs, including sentiment misclassification results used for error analysis.
+
+### `requirements.txt`
+Lists the main Python packages required to run the project.
 
 ## Academic Context
 
